@@ -18,6 +18,7 @@ CREATE TABLE energy_data (
     energy_per_gdp FLOAT,
     fossil_cons_change_twh FLOAT,
     fossil_energy_per_capita FLOAT,
+    fossil_fuel_consumption FLOAT,
     gas_cons_change_twh FLOAT,
     gas_consumption FLOAT,
     gas_energy_per_capita FLOAT,
