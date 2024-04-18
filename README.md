@@ -21,3 +21,12 @@ The data that powers our analysis is housed within a PostgreSQL database that ca
     </ul>
   <li>Once the PostgreSQL database is configured, the primary ipynb file within the repo contains logic for reading the database via SQLAlchemy. Please note that you will need to update the 'db_uri' variable to align with your own instance of PostgreSQL, where the pattern should be 'postgresql://user_name:password@localhost:port_number/database_name'</li>
 </ul>
+
+<h3>Summary of findings:</h3>
+<ul>
+  <li>A higher GDP tends to be strongly correlated with higher energy consumption.</li>
+  <li>A higher population tends to be strongly correlated with higher energy consumption.</li>
+  <li>GDP per-capita and energy consumption per-capita tend to be correlated, however, whether the correlation is positive or negative largely depends of the country developing stage as countries with a developing economy tend to have an increased demand for energy to power manufacturing, infrastructure, and urban growth.</li>
+  <li>Countries that are more invested in developing/ leveraging green technologies and that participate in global environmental accords tend to seeing their greenhouse gas emissions decrease as their renewable consumption increases.</li>
+  <li>The energy consumption from renewable sources is on the rise among the top 25 most populous nations, but there is still a lot work to be done as he majority of consumption still occurs via non-renewable sources..</li>
+</ul>
